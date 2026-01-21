@@ -63,8 +63,8 @@ export default function Contact() {
     {
       icon: Phone,
       title: 'Phone',
-      value: '+971 XX XXX XXXX',
-      link: 'tel:+971000000000'
+      value: '+971 56 544 0237',
+      link: 'tel:+971565440237'
     },
     {
       icon: Mail,
@@ -167,7 +167,7 @@ export default function Contact() {
                   Send us a message on WhatsApp for a quick response.
                 </p>
                 <a
-                  href="https://wa.me/971000000000"
+                  href="https://wa.me/971565440237"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white rounded-full px-6 py-3 font-medium transition-colors"
@@ -260,7 +260,7 @@ export default function Contact() {
                             type="tel"
                             value={formData.phone}
                             onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                            placeholder="+971 XX XXX XXXX"
+                            placeholder="+971 56 544 0237"
                             required
                             className="h-12 rounded-xl"
                           />
