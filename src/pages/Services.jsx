@@ -60,7 +60,7 @@ export default function Services() {
       icon: UtensilsCrossed,
       title: 'Kitchen Renovation',
       subtitle: 'Modern, functional kitchens tailored to your lifestyle',
-      image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2070&auto=format&fit=crop',
+      image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/696cac8722f70dcbd742d784/47152c616_kitchen.jpg',
       description: 'Transform your kitchen into the heart of your home. We design and build stunning kitchens with premium materials, smart storage solutions, and top-quality appliances that make cooking a pleasure.',
       features: [
         'Custom cabinetry & storage',
@@ -76,7 +76,7 @@ export default function Services() {
       icon: Bath,
       title: 'Bathroom Renovation',
       subtitle: 'Luxurious bathrooms with premium finishes',
-      image: 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=2070&auto=format&fit=crop',
+      image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/696cac8722f70dcbd742d784/e7a417ab8_Bathroom.jpg',
       description: 'Create spa-like retreats in your own home. Our bathroom renovations feature luxurious materials, elegant fixtures, and thoughtful design to transform your daily routine into a relaxing experience.',
       features: [
         'Complete waterproofing',

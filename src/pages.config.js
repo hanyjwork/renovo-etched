@@ -1,19 +1,19 @@
-import Home from './pages/Home';
 import About from './pages/About';
-import Services from './pages/Services';
 import Approvals from './pages/Approvals';
-import WhyUs from './pages/WhyUs';
 import Contact from './pages/Contact';
+import Home from './pages/Home';
+import Services from './pages/Services';
+import WhyUs from './pages/WhyUs';
 import __Layout from './Layout.jsx';
 
 
 export const PAGES = {
-    "Home": Home,
     "About": About,
-    "Services": Services,
     "Approvals": Approvals,
-    "WhyUs": WhyUs,
     "Contact": Contact,
+    "Home": Home,
+    "Services": Services,
+    "WhyUs": WhyUs,
 }
 
 export const pagesConfig = {
