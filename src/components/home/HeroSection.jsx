@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, CheckCircle2, MessageCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function HeroSection() {
@@ -68,6 +68,18 @@ export default function HeroSection() {
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4">
+              <a
+                href="https://wa.me/971565440237"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  size="lg"
+                  className="bg-green-600 hover:bg-green-700 text-white rounded-full px-8 h-14 text-base font-medium group">
+                  <MessageCircle className="w-5 h-5 mr-2" />
+                  Chat on WhatsApp
+                </Button>
+              </a>
               <Link to={createPageUrl('Contact')}>
                 <Button
                   size="lg"
