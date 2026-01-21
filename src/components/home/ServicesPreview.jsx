@@ -24,7 +24,7 @@ export default function ServicesPreview() {
       icon: UtensilsCrossed,
       title: 'Kitchen Renovation',
       description: 'Modern, functional kitchens tailored to your lifestyle.',
-      image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2070&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=2070&auto=format&fit=crop',
       link: 'kitchen'
     },
     {
