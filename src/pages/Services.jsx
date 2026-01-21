@@ -264,9 +264,9 @@ export default function Services() {
                     <img
                       src={service.image}
                       alt={service.title}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover contrast-110 brightness-95"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-stone-900/30 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-stone-900/40 to-transparent" />
                   </div>
                 </div>
               </motion.div>
