@@ -54,7 +54,7 @@ export default function CTASection() {
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
-            <a href="tel:+971000000000">
+            <a href="tel:+971565440237">
               <Button
                 size="lg"
                 variant="outline" className="bg-background text-[#C4A77D] px-8 text-base font-medium rounded-full inline-flex items-center justify-center gap-2 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border shadow-sm hover:text-accent-foreground border-white/30 hover:bg-white/10 h-14 w-full sm:w-auto">

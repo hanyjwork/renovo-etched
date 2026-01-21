@@ -119,13 +119,13 @@ export default function Navbar() {
           {/* CTA Button */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href="tel:+971000000000"
+              href="tel:+971565440237"
               className={`flex items-center gap-2 text-sm font-medium ${
                 isScrolled ? 'text-stone-600' : 'text-white/90'
               }`}
             >
               <Phone className="w-4 h-4" />
-              <span>+971 XX XXX XXXX</span>
+              <span>+971 56 544 0237</span>
             </a>
             <Link to={createPageUrl('Contact')}>
               <Button className="bg-[#C4A77D] hover:bg-[#B39A72] text-white rounded-full px-6">
