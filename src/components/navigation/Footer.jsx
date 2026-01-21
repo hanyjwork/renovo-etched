@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
-import { Phone, Mail, MapPin, Instagram, Facebook, Linkedin } from 'lucide-react';
+import { Phone, Mail, MapPin, Instagram, Facebook, Linkedin, MessageCircle } from 'lucide-react';
 
 export default function Footer() {
   const services = [
@@ -35,6 +35,9 @@ export default function Footer() {
               End-to-end villa renovation specialists in Dubai. From design to approvals to handover — we handle everything.
             </p>
             <div className="flex gap-4">
+              <a href="https://wa.me/971565440237" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-green-600 flex items-center justify-center hover:bg-green-700 transition-colors">
+                <MessageCircle className="w-5 h-5" />
+              </a>
               <a href="#" className="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-[#C4A77D] transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
