@@ -45,7 +45,7 @@ export default function ServicesPreview() {
       icon: Trees,
       title: 'Landscaping & Pergolas',
       description: 'Beautiful outdoor spaces with hard and soft landscaping.',
-      image: 'https://images.unsplash.com/photo-1598902108854-10e335adac99?q=80&w=2074&auto=format&fit=crop',
+      image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/696cac8722f70dcbd742d784/2c63af8ea_landscaping.jpg',
       link: 'landscaping'
     },
     {
