@@ -9,7 +9,7 @@ export default function CommunitiesSection() {
     { name: 'Tilal Al Ghaf', image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/696cac8722f70dcbd742d784/7dc532c1e_titalalghaf.jpg' },
     { name: 'Dubai Hills', image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/696cac8722f70dcbd742d784/d1947a931_dubaihills.jpg' },
     { name: 'The Villa', image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/696cac8722f70dcbd742d784/40a7f5a4b_thevillaproject.jpg' },
-    { name: 'Damac Hills', image: 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=2070&auto=format&fit=crop' },
+    { name: 'Damac Hills', image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/696cac8722f70dcbd742d784/94912d820_damachills.jpg' },
   ];
 
   return (
