@@ -76,15 +76,15 @@ export default function CTASection() {
 
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 bg-[#C4A77D] rounded-full" />
-              Dubai Municipality Licensed
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="w-2 h-2 bg-[#C4A77D] rounded-full" />
               Free Consultation
             </div>
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 bg-[#C4A77D] rounded-full" />
               Transparent Pricing
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-[#C4A77D] rounded-full" />
+              Professional Service
             </div>
           </motion.div>
         </div>

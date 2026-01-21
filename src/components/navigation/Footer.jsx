@@ -115,9 +115,6 @@ export default function Footer() {
             <p className="text-stone-500 text-sm">
               © {new Date().getFullYear()} Renovo Etched Technical Services LLC. All rights reserved.
             </p>
-            <p className="text-stone-500 text-sm">
-              Licensed by Dubai Municipality
-            </p>
           </div>
         </div>
       </div>
