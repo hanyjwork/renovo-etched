@@ -5,7 +5,7 @@ import { MapPin } from 'lucide-react';
 export default function CommunitiesSection() {
   const communities = [
     { name: 'Arabian Ranches', image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/696cac8722f70dcbd742d784/338ed0baa_arabianranches.jpg' },
-    { name: 'Mudon', image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop' },
+    { name: 'Mudon', image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/696cac8722f70dcbd742d784/87e79b591_mudon.jpg' },
     { name: 'Tilal Al Ghaf', image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop' },
     { name: 'Dubai Hills', image: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=2070&auto=format&fit=crop' },
     { name: 'The Villa', image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=2070&auto=format&fit=crop' },
