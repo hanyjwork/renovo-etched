@@ -31,7 +31,7 @@ export default function ServicesPreview() {
       icon: Bath,
       title: 'Bathroom Renovation',
       description: 'Luxurious bathrooms with premium finishes and fixtures.',
-      image: 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=2070&auto=format&fit=crop',
+      image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/696cac8722f70dcbd742d784/e7a417ab8_Bathroom.jpg',
       link: 'bathroom'
     },
     {
