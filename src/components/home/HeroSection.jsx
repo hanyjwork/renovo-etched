@@ -7,9 +7,9 @@ import { motion } from 'framer-motion';
 
 export default function HeroSection() {
   const features = [
-  'Dubai Municipality Approved',
   'Design to Handover',
-  'Zero Headaches'];
+  'Zero Headaches',
+  'Professional Service'];
 
 
   return (
