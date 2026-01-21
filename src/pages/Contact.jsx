@@ -69,8 +69,8 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      value: 'info@renovoetched.com',
-      link: 'mailto:info@renovoetched.com'
+      value: 'info@renovo-etched.ae',
+      link: 'mailto:info@renovo-etched.ae'
     },
     {
       icon: MapPin,
