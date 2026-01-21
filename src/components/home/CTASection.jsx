@@ -13,8 +13,8 @@ export default function CTASection() {
         <img
           src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2070&auto=format&fit=crop"
           alt="Modern villa"
-          className="w-full h-full object-cover"
-        />
+          className="w-full h-full object-cover" />
+
         <div className="absolute inset-0 bg-stone-900/85" />
       </div>
 
@@ -24,8 +24,8 @@ export default function CTASection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6"
-          >
+            className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
+
             Ready to Transform Your Property?
           </motion.h2>
           <motion.p
@@ -33,8 +33,8 @@ export default function CTASection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-xl text-white/80 mb-10"
-          >
+            className="text-xl text-white/80 mb-10">
+
             Let's discuss your vision and create the home you've always wanted.
           </motion.p>
 
@@ -43,13 +43,13 @@ export default function CTASection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-4"
-          >
+            className="flex flex-col sm:flex-row items-center justify-center gap-4">
+
             <Link to={createPageUrl('Contact')}>
               <Button
                 size="lg"
-                className="bg-[#C4A77D] hover:bg-[#B39A72] text-white rounded-full px-8 h-14 text-base font-medium group w-full sm:w-auto"
-              >
+                className="bg-[#C4A77D] hover:bg-[#B39A72] text-white rounded-full px-8 h-14 text-base font-medium group w-full sm:w-auto">
+
                 Get a Free Quote
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
@@ -57,9 +57,9 @@ export default function CTASection() {
             <a href="tel:+971000000000">
               <Button
                 size="lg"
-                variant="outline"
-                className="border-white/30 text-white hover:bg-white/10 rounded-full px-8 h-14 text-base font-medium w-full sm:w-auto"
-              >
+                variant="outline" className="bg-background text-[#C4A77D] px-8 text-base font-medium rounded-full inline-flex items-center justify-center gap-2 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border shadow-sm hover:text-accent-foreground border-white/30 hover:bg-white/10 h-14 w-full sm:w-auto">
+
+
                 <Phone className="w-5 h-5 mr-2" />
                 Talk to Our Experts
               </Button>
@@ -72,8 +72,8 @@ export default function CTASection() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.3 }}
-            className="mt-12 flex flex-wrap items-center justify-center gap-8 text-white/60 text-sm"
-          >
+            className="mt-12 flex flex-wrap items-center justify-center gap-8 text-white/60 text-sm">
+
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 bg-[#C4A77D] rounded-full" />
               Dubai Municipality Licensed
@@ -89,6 +89,6 @@ export default function CTASection() {
           </motion.div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 }
