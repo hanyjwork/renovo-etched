@@ -51,7 +51,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to={createPageUrl('Home')} className="flex items-center gap-3">
             <img 
-              src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=100&h=100&fit=crop&crop=center" 
+              src="https://images.unsplash.com/photo-1545259742-12f8e1100f0b?w=100&h=100&fit=crop&crop=center" 
               alt="Renovo Etched Logo" 
               className="w-10 h-10 object-cover rounded-lg"
             />
