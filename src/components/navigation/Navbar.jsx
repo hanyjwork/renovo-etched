@@ -50,9 +50,11 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to={createPageUrl('Home')} className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-[#C4A77D] rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">RE</span>
-            </div>
+            <img 
+              src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=100&h=100&fit=crop&crop=center" 
+              alt="Renovo Etched Logo" 
+              className="w-10 h-10 object-cover rounded-lg"
+            />
             <div className={`font-bold text-xl tracking-tight transition-colors ${isScrolled ? 'text-stone-800' : 'text-white'}`}>
               <span className="font-light">RENOVO</span>
               <span className="text-[#C4A77D]"> ETCHED</span>
