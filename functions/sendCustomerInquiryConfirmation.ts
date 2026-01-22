@@ -99,7 +99,7 @@ Deno.serve(async (req) => {
         `.trim();
 
         await base44.asServiceRole.integrations.Core.SendEmail({
-            to: data.email,
+            to: 'info@renovo-etched.ae',
             subject: 'Thank You for Your Inquiry - Renovo Etched',
             body: emailBody,
             from_name: 'Renovo Etched Technical Services'
