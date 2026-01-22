@@ -53,7 +53,7 @@ export default function Navbar() {
             <img 
               src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/696cac8722f70dcbd742d784/65734e086_Renovologo.jpg" 
               alt="Renovo Etched Logo" 
-              className="w-10 h-10 object-contain"
+              className="w-10 h-10 object-contain rounded-xl"
             />
             <div className={`font-bold text-xl tracking-tight transition-colors ${isScrolled ? 'text-stone-800' : 'text-white'}`}>
               <span className="font-light">RENOVO</span>
