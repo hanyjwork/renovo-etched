@@ -51,9 +51,9 @@ export default function Navbar() {
           {/* Logo */}
           <Link to={createPageUrl('Home')} className="flex items-center gap-3">
             <img 
-              src="https://images.unsplash.com/photo-1545259742-12f8e1100f0b?w=100&h=100&fit=crop&crop=center" 
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/696cac8722f70dcbd742d784/65734e086_Renovologo.jpg" 
               alt="Renovo Etched Logo" 
-              className="w-10 h-10 object-cover rounded-lg"
+              className="w-10 h-10 object-contain"
             />
             <div className={`font-bold text-xl tracking-tight transition-colors ${isScrolled ? 'text-stone-800' : 'text-white'}`}>
               <span className="font-light">RENOVO</span>
