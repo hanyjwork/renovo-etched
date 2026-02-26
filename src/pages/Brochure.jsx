@@ -78,7 +78,7 @@ export default function Brochure() {
         </motion.section>
 
         {/* Two Column Layout */}
-        <div className="grid lg:grid-cols-2 gap-8 mb-16">
+        <div className="grid lg:grid-cols-2 gap-8 mb-8">
           {/* Our Commitments */}
           <motion.section
             initial={{ opacity: 0, y: 20 }}
@@ -133,7 +133,7 @@ export default function Brochure() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
-          className="mb-16"
+          className="mb-8"
         >
           <div className="bg-white rounded-2xl p-8 sm:p-12 shadow-lg border-l-4 border-[#C4A77D]">
             <div className="flex items-center gap-4 mb-6">
@@ -158,7 +158,7 @@ export default function Brochure() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
-          className="mb-16"
+          className="mb-8"
         >
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="relative h-80 rounded-2xl overflow-hidden shadow-lg">
