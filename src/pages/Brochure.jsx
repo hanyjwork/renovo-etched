@@ -96,7 +96,7 @@ export default function Brochure() {
                 {sections.commitments.map((item, index) =>
                 <li key={index} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-[#C4A77D] mt-0.5 flex-shrink-0" />
-                    <span className="text-stone-700">{item}</span>
+                    <span className="text-stone-700 text-xl">{item}</span>
                   </li>
                 )}
               </ul>
