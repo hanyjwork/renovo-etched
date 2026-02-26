@@ -44,8 +44,8 @@ export default function Brochure() {
               <span className="text-[#C4A77D]">Renovo</span>{' '}
               <span className="text-white">Etched</span>
             </h1>
-            <h2 className="text-2xl sm:text-3xl text-white font-light tracking-wide">
-              Technical Services
+            <h2 className="text-white text-3xl font-light tracking-wide sm:text-3xl">Technical Services
+
             </h2>
           </motion.div>
         </div>
@@ -120,7 +120,7 @@ export default function Brochure() {
                 {sections.deliverables.map((item, index) =>
                 <li key={index} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-[#C4A77D] mt-0.5 flex-shrink-0" />
-                    <span className="text-stone-700">{item}</span>
+                    <span className="text-stone-700 text-xl">{item}</span>
                   </li>
                 )}
               </ul>
@@ -146,7 +146,7 @@ export default function Brochure() {
               {sections.differentiation.map((item, index) =>
               <li key={index} className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-[#C4A77D] mt-1 flex-shrink-0" />
-                  <span className="text-stone-700 text-lg">{item}</span>
+                  <span className="text-stone-700 text-xl">{item}</span>
                 </li>
               )}
             </ul>
