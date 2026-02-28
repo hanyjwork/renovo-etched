@@ -100,6 +100,7 @@ Deno.serve(async (req) => {
 </html>
         `.trim();
 
+        // Send via admin integration (service role) to allow emails to external addresses
         await base44.asServiceRole.integrations.Core.SendEmail({
             to: data.email,
             subject: 'Thank You for Your Inquiry - Renovo Etched',
