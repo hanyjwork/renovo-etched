@@ -7,6 +7,11 @@ Deno.serve(async (req) => {
         // Support both direct frontend calls ({ data }) and entity automation payload ({ event, data })
         const data = body.data || null;
 
+        // Only process 'create' events from automation (skip update/delete)
+        if (body.event && body.event.type !== 'create') {
+            return Response.json({ success: true, skipped: true });
+        }
+
         if (!data || !data.email) {
             return Response.json({ error: 'No inquiry data provided' }, { status: 400 });
         }
