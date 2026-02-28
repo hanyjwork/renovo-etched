@@ -49,22 +49,22 @@
  */
 import About from './pages/About';
 import Approvals from './pages/Approvals';
+import Brochure from './pages/Brochure';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Services from './pages/Services';
 import WhyUs from './pages/WhyUs';
-import Brochure from './pages/Brochure';
 import __Layout from './Layout.jsx';
 
 
 export const PAGES = {
     "About": About,
     "Approvals": Approvals,
+    "Brochure": Brochure,
     "Contact": Contact,
     "Home": Home,
     "Services": Services,
     "WhyUs": WhyUs,
-    "Brochure": Brochure,
 }
 
 export const pagesConfig = {
