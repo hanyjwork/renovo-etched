@@ -3,7 +3,9 @@ import { createClientFromRequest } from 'npm:@base44/sdk@0.8.6';
 Deno.serve(async (req) => {
     try {
         const base44 = createClientFromRequest(req);
-        const { data } = await req.json();
+        const body = await req.json();
+        // Support both direct frontend calls ({ data }) and entity automation payload ({ event, data })
+        const data = body.data || null;
 
         if (!data || !data.email) {
             return Response.json({ error: 'No inquiry data provided' }, { status: 400 });
