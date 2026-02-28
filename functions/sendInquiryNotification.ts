@@ -94,6 +94,14 @@ Deno.serve(async (req) => {
             });
         }
 
+        // Also send directly to info@renovo-etched.ae
+        await base44.asServiceRole.integrations.Core.SendEmail({
+            to: 'info@renovo-etched.ae',
+            subject: `New Inquiry: ${projectType} - ${data.name}`,
+            body: emailBody,
+            from_name: 'Renovo Etched Website'
+        });
+
         return Response.json({ success: true });
     } catch (error) {
         return Response.json({ error: error.message }, { status: 500 });
