@@ -61,7 +61,7 @@ Deno.serve(async (req) => {
             <div class="greeting">Dear ${data.name},</div>
             
             <div class="message">
-                Thank you for contacting Renovo Etched Technical Services LLC! We have received your inquiry and appreciate your interest in our services.
+                We have received your request and appreciate your interest in our services. A member of our team will be in touch with you shortly to discuss your project in detail.
             </div>
             
             <div class="details-box">
