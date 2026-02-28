@@ -42,6 +42,7 @@ export default function Contact() {
     setIsSubmitting(true);
 
     await base44.entities.Inquiry.create(formData);
+    await base44.functions.invoke('sendCustomerInquiryConfirmation', { data: formData });
     
     setIsSubmitted(true);
     setIsSubmitting(false);
