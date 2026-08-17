@@ -1,0 +1,55 @@
+{
+  "name": "Inquiry",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Full name of the person"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "Email address"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Phone number"
+    },
+    "project_type": {
+      "type": "string",
+      "enum": [
+        "full_villa_renovation",
+        "villa_extension",
+        "kitchen_renovation",
+        "bathroom_renovation",
+        "internal_works",
+        "landscaping_pergolas",
+        "pool",
+        "design_consultation",
+        "other"
+      ],
+      "description": "Type of project interested in"
+    },
+    "message": {
+      "type": "string",
+      "description": "Additional details about the project"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "new",
+        "contacted",
+        "in_progress",
+        "completed"
+      ],
+      "default": "new",
+      "description": "Status of the inquiry"
+    }
+  },
+  "required": [
+    "name",
+    "email",
+    "phone",
+    "project_type"
+  ]
+}
